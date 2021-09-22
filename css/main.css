@@ -7,7 +7,7 @@
 
 /* Commons */
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .font-style-title{
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -81,19 +81,22 @@
     border-radius: 40px;
     margin: 10px;
 }
-
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 /* Header */
 header{
     background-color:#265EE8
 }
 
-.column-1{
+div .column-1{
     float: left;
     width: 78%;
     text-align: center;
 }
 
-.column-2{
+div .column-2{
     float: left;
     width: 22%;
     padding-top: 30px;
@@ -114,4 +117,38 @@ ul li a {
     text-decoration: none;
     text-align: center;
     margin: 30px 15px 20px;
+}
+img{
+    max-width: 100%;
+}
+/* Luogo Section */
+
+.floatleft-image{
+    float: left;
+    width: 60%;
+}
+
+.floatleft-text{
+    float: left;
+    width: 40%;
+    padding-top: 40px;
+    padding-right: 200px;
+
+}
+
+/* Dove trovarsi Section */
+
+.bg-grey{
+    background-color:#F6F6F6;
+}
+.floatright-image{
+    float: right;
+    width: 60%;
+}
+
+.floatright-text{
+    float: right;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 200px;
 }
