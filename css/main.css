@@ -21,23 +21,46 @@
     color: white
 }
 
+.logo-discord{
+    vertical-align: middle;
+    padding-right: 120px;
 
+}
+
+.button{
+    background-color: white;
+    
+}
 /* Header */
 header{
     background-color: #3161E0;
-    
 }
+
 .column-1{
     float: left;
-    width: 70%;
+    width: 80%;
+    text-align: center;
 }
 
 .column-2{
     float: left;
-    width: 30%;
+    width: 20%;
+
 }
 
-ul li{
+ul{
     display: inline-block;
     list-style: none;
+
+}
+ul li {
+    display: inline-block;
+
+}
+ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 25px 20px;
 }
