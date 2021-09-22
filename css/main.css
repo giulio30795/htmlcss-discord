@@ -21,15 +21,23 @@
     color: white
 }
 
+.font-size-small{
+    font-size: 12px;
+}
 .logo-discord{
     vertical-align: middle;
-    padding-right: 120px;
+    padding-right: 170px;
 
 }
 
-.button{
+.button-white{
     background-color: white;
+    color: black;
+    padding:8px;
+    border-radius: 50%;
+    text-decoration: none;
     
+
 }
 /* Header */
 header{
@@ -45,6 +53,7 @@ header{
 .column-2{
     float: left;
     width: 20%;
+    padding-top: 20px;
 
 }
 
@@ -62,5 +71,5 @@ ul li a {
     color: white;
     text-decoration: none;
     text-align: center;
-    margin: 20px 25px 20px;
+    margin: 20px 15px 20px;
 }
